@@ -9,46 +9,46 @@ import './InfoSection.sass'
 
 function InfoSection() {
     return (
-        <div className="info-section">
+        <div className="infoSection">
             <div>
                 <Header />
                 <Row style={{paddingTop: 30}}>
-                    <Col xs={{span: 1, offset: 1}} xl={{span: 1, offset: 1}} className="number">
+                    <Col xs={{span: 1, offset: 1}} xl={{span: 1, offset: 1}} className="infoSection__number">
                         <Number>1</Number>
                     </Col>
-                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="content">
+                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="infoSection__content">
                         Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor,
                         pharetra lectus congue, luctus orci.
                     </Col>
                     <Col xs={1} className="number">
                         <Number>4</Number>
                     </Col>
-                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="content">
+                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="infoSection__content">
                         Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor,
                         pharetra lectus congue, luctus orci.
                     </Col>
                 </Row>
                 <Row style={{paddingTop: 50}}>
-                    <Col xs={{span: 1, offset: 1}} xl={{span: 1, offset: 1}} className="number">
+                    <Col xs={{span: 1, offset: 1}} xl={{span: 1, offset: 1}} className="infoSection__number">
                         <Number>2</Number>
                     </Col>
-                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="content">
+                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="infoSection__content">
                         Mauris consequat libero metus, nec ultricies sem efficitur quis.
                         Integer bibendum eget metus ac accumsan.
                     </Col>
                     <Col xs={1} className="number">
                         <Number>5</Number>
                     </Col>
-                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="content">
+                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="infoSection__content">
                         Mauris consequat libero metus, nec ultricies sem efficitur quis.
                         Integer bibendum eget metus ac accumsan.
                     </Col>
                 </Row>
                 <Row style={{paddingTop: 50}}>
-                    <Col xs={{span: 1, offset: 1}} xl={{span: 1, offset: 1}} className="number">
+                    <Col xs={{span: 1, offset: 1}} xl={{span: 1, offset: 1}} className="infoSection__number">
                         <Number>6</Number>
                     </Col>
-                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="content">
+                    <Col xs={{span: 3, offset: 1}} xl={{span: 2, offset: 0}} className="infoSection__content">
                         Integer sit amet lacus egestas, semper est quis, viverra ex.
                         Mauris consequat libero metus, nec ultricies sem efficitur quis.
                     </Col>

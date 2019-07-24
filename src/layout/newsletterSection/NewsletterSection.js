@@ -6,7 +6,7 @@ function NewsletterSection() {
     return (
         <div className="newsletter">
 
-            <p className="newsletterTitle">Sign up for our newsletter</p>
+            <p className="newsletter__title">Sign up for our newsletter</p>
 
             <div>
                 <input type="text" placeholder="Email address" />

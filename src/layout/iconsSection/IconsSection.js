@@ -12,7 +12,8 @@ import './IconsSection.sass'
 
 function IconsSection() {
     return (
-        <div className="icon-section" style={{textAlign: 'center'}}>
+        <div className="iconSection">
+
             <Row className="justify-content-center" style={{paddingTop: 130}}>
                 <Col xs={3} md={2} style={{padding: 30}}>
                     <img src={fromAir} alt="" width="110" />
@@ -27,39 +28,43 @@ function IconsSection() {
                     <img src={robot} alt="" width="80" />
                 </Col>
             </Row>
-            <Row className="justify-content-center" style={{marginTop: -25}}>
+
+            <Row className="justify-content-center">
                 <Col xs={3} md={2}>
-                    <p className="icon">From air</p>
+                    <p className="iconSection__label">From air</p>
                 </Col>
                 <Col xs={3} md={2}>
-                    <p className="icon">Best drones</p>
+                    <p className="iconSection__label">Best drones</p>
                 </Col>
                 <Col xs={3} md={2}>
-                    <p className="icon">Speed</p>
+                    <p className="iconSection__label">Speed</p>
                 </Col>
                 <Col xs={3} md={2}>
-                    <p className="icon">Long range</p>
+                    <p className="iconSection__label">Long range</p>
                 </Col>
             </Row>
+
             <Row className="justify-content-center" style={{marginTop: -10, lineHeight: 2}}>
                 <Col xs={3} md={2}>
-                    <p style={{color: '#5e6372'}}>Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
+                    <p className="iconSection__info">Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
                 </Col>
                 <Col xs={3} md={2}>
-                    <p style={{color: '#5e6372'}}>Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
+                    <p className="iconSection__info">Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
                 </Col>
                 <Col xs={3} md={2}>
-                    <p style={{color: '#5e6372'}}>Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
+                    <p className="iconSection__info">Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
                 </Col>
                 <Col xs={3} md={2}>
-                    <p style={{color: '#5e6372'}}>Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
+                    <p className="iconSection__info">Pellentesque eget nunc sit amet urna ullamcorper fermentum et euleo.</p>
                 </Col>
             </Row>
+
             <Row className="justify-content-center" style={{marginTop: 75, paddingBottom: 75}}>
                 <Col xs={3} xl={2}>
                     <PriceButton color='#ffffff' backgroundColor='#2e4d9c' />
                 </Col>
             </Row>
+
         </div>
     );
 }

@@ -13,7 +13,7 @@ function Buttons() {
             </Col>
 
             <Col xs={3} xl={2} style={{zIndex: 5}}>
-                <div className="watch-button">
+                <div className="header__watch-button">
                     <i className="fa fa-play" style={{marginRight: '10px'}}></i>Watch video
                 </div>
             </Col>

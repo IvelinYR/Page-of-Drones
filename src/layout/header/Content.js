@@ -9,13 +9,13 @@ function Content() {
         <div>
             <Row className="justify-content-center">
                 <Col xs={9}>
-                    <p className="title">Film your event with us!</p>
+                    <p className="header__title">Film your event with us!</p>
                 </Col>
             </Row>
 
             <Row className="justify-content-center">
                 <Col xs={5} xl={4}>
-                    <p className="text">
+                    <p className="header__text">
                         Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
                         Nunc vel nibh tempor, pharetra lectus congue, luctus orci.
                     </p>

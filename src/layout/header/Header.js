@@ -10,7 +10,7 @@ function Header() {
     return (
         <div>
             <div className="header">
-                <div className="text-container">
+                <div className="header__container">
                     <Navigation />
 
                     <Content />

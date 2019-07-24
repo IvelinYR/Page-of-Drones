@@ -8,18 +8,18 @@ function PortfolioSection() {
     return (
         <div className="portfolio">
             <div className="row">
-                <div className="col photoTop">
-                    <div className="playButton">
+                <div className="col portfolio__photoTop">
+                    <div className="portfolio__playButton">
                         <i className="fa fa-play" style={{color: '#ffffff'}}></i>
                     </div>
                 </div>
 
-                <div className="col titleTop">
+                <div className="col portfolio__titleTop">
                     <div style={{marginLeft: 25}}>
-                        <p className="photoTitle">
+                        <p className="portfolio__photoTitle">
                             Nature from the air
                         </p>
-                        <p className="photoText">
+                        <p className="portfolio__photoText">
                             Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor,
                             pharetra lectus congue, luctus orci nec ultricies sem efficitur quis.
                             Integer bibendum eget metus ac accumsan.
@@ -30,12 +30,12 @@ function PortfolioSection() {
             </div>
 
             <div className="row">
-                <div className="col titleBottom">
+                <div className="col portfolio__titleBottom">
                     <div style={{marginLeft: 25}}>
-                        <p className="photoTitle">
+                        <p className="portfolio__photoTitle">
                             City from the air
                         </p>
-                        <p className="photoText">
+                        <p className="portfolio__photoText">
                             Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget
                             metus ac accumsan. Integer sit amet lacus egestas, semper est quis, viverra ex. Pellentesque
                             eget nunc sit amet urna ullamcorper fermentum et eu leo.
@@ -44,8 +44,8 @@ function PortfolioSection() {
                     </div>
                 </div>
 
-                <div className="col photoBottom">
-                    <div className="playButton">
+                <div className="col portfolio__photoBottom">
+                    <div className="portfolio__playButton">
                         <i className="fa fa-play" style={{color: '#ffffff'}}></i>
                     </div>
                 </div>
