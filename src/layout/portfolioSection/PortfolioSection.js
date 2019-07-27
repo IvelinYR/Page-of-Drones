@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 
 import {PriceButton} from '../../components/button/PriceButton'
 
@@ -6,16 +7,17 @@ import './PortfolioSection.sass'
 
 function PortfolioSection() {
     return (
+
         <div className="portfolio">
-            <div className="row">
-                <div className="col portfolio__photoTop">
+            <Row className="row" >
+                <Col xs={12} md={6} className="col portfolio__photoTop">
                     <div className="portfolio__playButton">
                         <i className="fa fa-play" style={{color: '#ffffff'}}></i>
                     </div>
-                </div>
+                </Col>
 
-                <div className="col portfolio__titleTop">
-                    <div style={{marginLeft: 25}}>
+                <Col xs={12} md={6} className="col portfolio__titleTop">
+                    <div style={{marginLeft: 25, paddingBottom: 10}}>
                         <p className="portfolio__photoTitle">
                             Nature from the air
                         </p>
@@ -26,12 +28,12 @@ function PortfolioSection() {
                         </p>
                         <PriceButton color='#ffffff' backgroundColor='#2e4d9c' />
                     </div>
-                </div>
-            </div>
+                </Col>
+            </Row>
 
-            <div className="row">
-                <div className="col portfolio__titleBottom">
-                    <div style={{marginLeft: 25}}>
+            <Row className="row" >
+                <Col xs={{span:12, order: 12}} md={{span:6, order: 1}} className="col portfolio__titleBottom">
+                    <div style={{marginLeft: 25, paddingBottom: 10}}>
                         <p className="portfolio__photoTitle">
                             City from the air
                         </p>
@@ -42,14 +44,14 @@ function PortfolioSection() {
                         </p>
                         <PriceButton color='#ffffff' backgroundColor='#2e4d9c' />
                     </div>
-                </div>
+                </Col>
 
-                <div className="col portfolio__photoBottom">
+                <Col xs={{span:12, order: 1 }} md={{span:6, order: 12}} className="col portfolio__photoBottom">
                     <div className="portfolio__playButton">
                         <i className="fa fa-play" style={{color: '#ffffff'}}></i>
                     </div>
-                </div>
-            </div>
+                </Col>
+            </Row>
         </div>
     );
 }

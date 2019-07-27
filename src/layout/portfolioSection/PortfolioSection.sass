@@ -1,39 +1,70 @@
 .portfolio
-    width: 101%
+    width: 100%
     height: 1284px
 
-.row
-    width: 100%
-    height: 50%
-
-.col
-    width: 50%
-    height: 100%
-    float: left
-
 .portfolio__photoTop
+    height: 642px
     display: flex
     align-items: center
     flex-direction: column
     justify-content: center
     background-image: url('photoTop.png')
+    background-repeat: no-repeat
     -webkit-background-size: cover
     -moz-background-size: cover
     -o-background-size: cover
-    background-repeat: no-repeat
-    background-size: 100% 100%
+    background-size: cover
 
 .portfolio__photoBottom
+    height: 642px
     display: flex
     align-items: center
     flex-direction: column
     justify-content: center
     background-image: url('photoBottom.png')
+    background-repeat: no-repeat
     -webkit-background-size: cover
     -moz-background-size: cover
     -o-background-size: cover
-    background-repeat: no-repeat
-    background-size: 100% 100%
+    background-size: cover
+
+
+@media only screen and (max-width: 1400px)
+    .portfolio
+        height: 1100px
+
+    .portfolio__photoTop
+        height: 550px
+
+    .portfolio__photoBottom
+        height: 550px
+
+@media only screen and (max-width: 1200px)
+    .portfolio
+        height: 900px
+
+    .portfolio__photoTop
+        height: 450px
+
+    .portfolio__photoBottom
+        height: 450px
+
+@media only screen and (max-width: 1000px)
+    .portfolio
+        height: 800px
+
+    .portfolio__photoTop
+        height: 400px
+
+    .portfolio__photoBottom
+        height: 400px
+
+@media only screen and (max-width: 768px)
+    .portfolio
+        height: 1414px
+
+    .portfolio__titleTop
+        align-items: center
 
 .portfolio__titleTop
     display: flex
@@ -73,3 +104,17 @@
     font-size: 18px
     text-align: justify
     padding-bottom: 50px
+
+
+@media print
+    .portfolio
+        height: 800px
+        margin-left: 250px
+    .portfolio__photoTop
+        display: none
+    .portfolio__photoBottom
+        display: none
+    .portfolio__titleTop
+        background-color: transparent
+    .portfolio__titleBottom
+        background-color: transparent

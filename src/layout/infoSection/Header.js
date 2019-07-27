@@ -5,8 +5,8 @@ import './InfoSection.sass'
 
 function Header() {
     return (
-        <div>
-            <Row style={{paddingTop: 120}}>
+        <div className="infoSection__header">
+            <Row style={{paddingTop: 70}}>
                 <Col xs={{span: 7, offset: 1}} xl={{span: 5, offset: 1}} className="infoSection__title">
                     Nature from the air
                 </Col>

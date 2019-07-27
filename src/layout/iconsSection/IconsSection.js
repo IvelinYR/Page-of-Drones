@@ -3,10 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 
 import {PriceButton} from '../../components/button/PriceButton'
 
-import fromAir from './fromAir.png'
-import dron from './dron.png'
-import speed from './speed.png'
-import robot from './robot.png'
+import img_trans from './img_trans.png'
 
 import './IconsSection.sass'
 
@@ -16,16 +13,16 @@ function IconsSection() {
 
             <Row className="justify-content-center" style={{paddingTop: 130}}>
                 <Col xs={3} md={2} style={{padding: 30}}>
-                    <img src={fromAir} alt="" width="110" />
+                    <img className="iconSection__fromAir" src={img_trans} />
                 </Col>
                 <Col xs={3} md={2} style={{padding: 15}}>
-                    <img src={dron} alt="" width="95" />
+                    <img className="iconSection__dron" src={img_trans} />
                 </Col>
                 <Col xs={3} md={2} style={{padding: 20}}>
-                    <img src={speed} alt="" width="90" />
+                    <img className="iconSection__speed" src={img_trans} />
                 </Col>
                 <Col xs={3} md={2} style={{padding: '5px 15px 15px 15px'}}>
-                    <img src={robot} alt="" width="80" />
+                    <img className="iconSection__robot" src={img_trans} />
                 </Col>
             </Row>
 
