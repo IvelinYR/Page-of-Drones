@@ -12,7 +12,7 @@ function PortfolioSection() {
             <Row className="row" >
                 <Col xs={12} md={6} className="col portfolio__photoTop">
                     <div className="portfolio__playButton">
-                        <i className="fa fa-play" style={{color: '#ffffff'}}></i>
+                        <i className="fa fa-play" style={{color: '#ffffff', marginLeft: 4}}></i>
                     </div>
                 </Col>
 
@@ -48,7 +48,7 @@ function PortfolioSection() {
 
                 <Col xs={{span:12, order: 1 }} md={{span:6, order: 12}} className="col portfolio__photoBottom">
                     <div className="portfolio__playButton">
-                        <i className="fa fa-play" style={{color: '#ffffff'}}></i>
+                        <i className="fa fa-play" style={{color: '#ffffff', marginLeft: 4}}></i>
                     </div>
                 </Col>
             </Row>

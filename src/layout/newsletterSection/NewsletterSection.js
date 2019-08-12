@@ -2,18 +2,23 @@ import React from 'react';
 
 import './NewsletterSection.sass'
 
-function NewsletterSection() {
-    return (
-        <div className="newsletter">
+export class NewsletterSection extends React.Component {
+    handleClick = () => {
+        document.getElementById('myInput').value = ''
+    }
 
-            <p className="newsletter__title">Sign up for our newsletter</p>
+    render() {
+        return (
+            <div className="newsletter">
 
-            <div>
-                <input type="text" placeholder="Email address" />
-                <input type="submit" value="Send" />
+                <p className="newsletter__title">Sign up for our newsletter</p>
+
+                <div>
+                    <input id="myInput" type="text" placeholder="Email address"/>
+                    <input type="submit" value="Send" onClick={this.handleClick} />
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
-
 export default NewsletterSection;

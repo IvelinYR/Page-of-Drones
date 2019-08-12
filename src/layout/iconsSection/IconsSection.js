@@ -13,16 +13,16 @@ function IconsSection() {
 
             <Row className="justify-content-center" style={{paddingTop: 130}}>
                 <Col xs={3} md={2} style={{padding: 30}}>
-                    <img className="iconSection__fromAir" src={img_trans} />
+                    <img alt='' className="iconSection__fromAir" src={img_trans} />
                 </Col>
                 <Col xs={3} md={2} style={{padding: 15}}>
-                    <img className="iconSection__dron" src={img_trans} />
+                    <img alt='' className="iconSection__dron" src={img_trans} />
                 </Col>
                 <Col xs={3} md={2} style={{padding: 20}}>
-                    <img className="iconSection__speed" src={img_trans} />
+                    <img alt='' className="iconSection__speed" src={img_trans} />
                 </Col>
                 <Col xs={3} md={2} style={{padding: '5px 15px 15px 15px'}}>
-                    <img className="iconSection__robot" src={img_trans} />
+                    <img alt='' className="iconSection__robot" src={img_trans} />
                 </Col>
             </Row>
 
